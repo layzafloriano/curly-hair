@@ -1,3 +1,28 @@
-.bg-pink{
+.bg-pink {
     background: #FE38A5;
+}
+
+.destaque {
+    background: url("../img/bg.jpg");
+    width: 100%;
+    height: calc(100vh - 69px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaque__conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque__btn {
+    width: 200px;
+    height: 40px;
+    background: none;
+    color: #FFE952;
+    border: #FFE952 solid 3px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
