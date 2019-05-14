@@ -3,7 +3,8 @@
 }
 
 .destaque {
-    background: url("../img/bg.jpg");
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
     width: 100%;
     height: calc(100vh - 69px);
     display: flex;
@@ -34,4 +35,16 @@
 
 .produtos h2 {
     color: #B3156C;
+}
+
+.sobre {
+    background: #B3156C;
+}
+
+.sobre h2 {
+    color: #FFE952;
+}
+
+.sobre i {
+    font-size: 120px;
 }
