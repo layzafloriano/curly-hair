@@ -33,7 +33,8 @@
     height: auto;
 }
 
-.produtos h2 {
+.produtos h2,
+.contato h2 {
     color: #B3156C;
 }
 
@@ -47,4 +48,19 @@
 
 .sobre i {
     font-size: 120px;
+}
+
+.contato button {
+    background: #1EA4B3;
+    border: #1EA4B3;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
 }
